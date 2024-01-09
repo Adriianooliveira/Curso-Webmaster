@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+                            /* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1rem;
+    
+}
+
+.youtube-logo {
+    height: 45px;
+    margin-top: -8px;
+    
+    
+}
+
+form.barra-pesquisa {
+    display: flex;
+    justify-content: center;  
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+    
+    
+}
+
+.search-input {
+    width: 100%;
+    max-width: 650px;  
+    font-size: inherit;
+    padding: .4rem;
+    border: 0.5px solid #77777769;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 42px;
+    margin-top: -8px;
+    padding-left: 20px;
+    box-shadow: inset 1px 1px 2px rgba(92, 92, 92, 0.33);
+    outline: none;  
+}
+
+.button {
+    padding: 0 1.25rem;    
+    border: 0.1px solid #77777769;
+    background-color: #dbdbdb42;
+    width: 70px;
+    border-left: none;
+    cursor: pointer;
+    margin-top: -8px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.button:hover {
+    background-color: #afafaf35;
+}
+
+.menu-icons {
+    display: grid;
+    gap: 30px;   
+    grid-template-columns: repeat(4, auto);
+}
+
+.menu-icons a .icons1 {
+    width: 20px;
+    margin-top: 10px;
+}
+
+.login1 {
+    position: relative;
+    border: 1px solid #77777754;
+    border-radius: 20px;
+    height: 38px;
+    width: 130px;
+}
+
+.login {
+    position: absolute;
+    text-decoration: none;
+    color: rgb(43, 95, 238);
+    font-size: 14px;
+    top: 20px;
+    left: 44px;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.conta {
+    left: -55%;
+    top: -8px;
+    position: absolute;
+    width: 30px;
+    color: blue;
+}
+
+
+             
+                           /* NAV */
+
+.categorias-nav {
+    padding: 1rem 2rem;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    box-shadow: inset 1px 1px 1px #7777779c;
+}
+
+.categorias-div {
+    display: flex;
+    overflow: hidden;
+}
+
+.categorias {
+    margin-right: 1rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.categorias:hover {
+    background-color: #ddd;
+    transition: background-color 0.2s;
+}
+
+#categorias-t {
+    background-color: rgb(22,22,22);
+    color: white;
+}
+
+.categorias:last-child {
+    margin-right: 0;
+
+}
+
+
+                            /* MAIN */
+
+.videos-sect {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem 1rem;
+    padding: 3rem 0rem;
+    margin: 0rem 1.5rem;
+    ;
+}
+
+.videos-sect:first-child {
+    border-top: none;
+}
+
+.video-art {
+    display: flex;
+    flex-wrap: wrap; /* ou flex-direction: column; */
+}
+
+.thumbnail {
+    position: relative;
+    display: flex;
+}
+
+.thumbnail::before {
+    content: attr(horas-vid);  
+    position: absolute;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    right: 4px;
+    bottom: 2px;
+    border-radius: 4px;
+    padding: 1px 2px;
+    font-size: 14px;
+
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    min-width: 250px;
+    min-height: 150px;
+    background-color: rgb(150, 150, 150);    
+}
+
+.video-canal {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.videos-main .canal-icons {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    background-color: rgb(181, 180, 180);
+
+}
+
+.video-descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 16px;
+
+}
+
+.nome-canal {
+    margin-bottom: 2px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.nome-canal:hover {
+    color: rgb(1, 1, 1);
+}
+
+.nome-canal, .visu-data {
+    color: rgb(110, 110, 110);
+}
+
+.video {
+    background-color: #f9f9f9;
+}
+
+.icon-verificado {
+    padding-left: 2px;
+    width: 15px;
+    height: 15px;
+}
+
+
+

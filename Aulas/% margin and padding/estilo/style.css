@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 50%;
+    margin-left: 50%;
+    display: inline-block;
+    padding-top: 50%;
+    background-color: green;
+}
+
+.parent {
+    width: 50%;
+    height: 400px;
+    background-color: orange;
+}

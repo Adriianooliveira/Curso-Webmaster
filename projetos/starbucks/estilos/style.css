@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    height: 200px;
+}
+
+header .center {   
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin:0 auto;
+    padding: 0px 2px;
+}
+
+header .center .logo {
+    width: 50%;
+}
+
+header .center .menu {
+    padding-top: 20px;
+    width: 50%;
+    text-align: right;
+
+}
+
+header .center .menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.imagem {
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.imagem .starbucks {
+    position: absolute;
+    right: -500px;
+    bottom: -450px;
+    border-radius: 50%;
+    width: 1200px;
+    height: 1200px;
+    background-color: green;
+}
+
+.imagem .social {
+    position: absolute;
+    right: 0;
+    bottom: 450px;
+
+}
+
+.imagem .social img {
+    display: block;
+    margin-top: 15px;
+    width: 25px;
+}
