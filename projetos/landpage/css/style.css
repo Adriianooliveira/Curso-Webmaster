@@ -156,7 +156,7 @@ main form input[type = submit]:hover {
 .container-2 p {
     text-align: left;
     text-align: justify;
-    max-width: 768px;
+    max-width: 760px;
 }
 
 .container-2 .arrow {
@@ -276,4 +276,15 @@ footer {
 
     }
 
+    .container-2 p {
+
+        padding: 0px 4%;
+    }
+
+    .container-single {
+        float: none;
+        display: inlin-block;
+        width: 100%;
+        padding: 20px 50px;
+    }
 }
