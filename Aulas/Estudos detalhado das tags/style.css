@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+header.principal {
+    background-color: green;
+    padding: 10px;
+}
+
+header.principal nav{
+    text-align: center;   
+}
+
+header.principal nav ul {
+    list-style-type: none;
+}
+
+header.principal nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}

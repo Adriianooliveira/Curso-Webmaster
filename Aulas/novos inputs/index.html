@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exemplo de descrição para meu site">
+    <meta name="keywords" content="palavras-chaves,separados,por,virgula">
+    <meta name="author" content="Adriano de Oliveira ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="cadastro.php">
+        <label for="texto">digite seu nome:</label>
+        <input type="text" name="texto" id="texto" placeholder="digite seu nome">
+        <input type="reset" value="Resetar"> 
+        <br>
+
+        <label for="numero">Digite um numero:</label>
+        <input type="number" name="numero" id="numero" min="10" max="50">
+        <br>
+
+        <label for="data">data:</label>
+        <input type="date" name="data" id="data">
+        <br>
+        
+        <label for="cor">escolha a cor:</label>
+        <input type="color" name="cor" id="cor" value="#777777">
+        <br>
+
+        <label for="email">digite seu email:</label>
+        <input type="email" name="email" id="email" required>
+        <input type="submit" value="Enviar">
+        <br>
+        
+        <label for="mas">masculino</label>
+        <input type="radio" name="mf" id="mas" checked style="margin-right: 10px;">
+        <label for="fem">Feminino</label>
+        <input type="radio" name="mf" id="fem">
+    </form>
+    
+</body>
+</html>
