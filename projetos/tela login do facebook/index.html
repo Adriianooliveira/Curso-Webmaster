@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="descrição para o site">
+    <meta name="keywords" content="palavras-chaves,separadas,por,virgula">
+    <meta name="author" content="Adriano de Oliveira Silva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+    <title>Login Facebook</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="mediaquery/style.css">
+</head>
+<body>
+    
+
+    <header>
+        <div class="center">
+            <div class="header">
+                <div class="logo">
+                    <h2>Facebook</h2>
+                </div>
+                <form action="cadastro.php" method="post" class="form-login">
+                    <div class="form-element">
+                        <label for="">Email ou Telefone</label> <br>
+                        <input type="email" name="" id="">
+                    </div>
+                
+                    <div class="form-element">
+                        <label for="">Senha</label> <br>
+                        <input type="password" name="" id="">
+                    </div>
+                    <div class="form-element">
+                        <input type="submit" value="Enviar" name="acao">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="center">
+            <div class="pessoas">
+                    <img src="image/backiee-91980.jpg" alt="">
+            </div> 
+            
+            <div class="abrir-conta">
+                <h2>Abra a sua conta</h2>
+                <h3>É gratuito e sempre será.</h3>
+
+                <form action="cadastro.php" class="criar-conta">
+                    <div class="nome" id="nome">
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="sobr"  id="sobr">
+                        <input type="text" name="" id="" placeholder="Sobrenome" required>
+                    </div>
+
+                    <div class="email"  id="email">
+                        <input type="email" name="" id="" placeholder="Celular ou email" required>
+                    </div>
+
+                    <div class="senha" id="senha">
+                        <input type="password" name="" id="" placeholder="Nova senha" required min="8">
+                    </div>
+
+                    <div class="nascimento" id="nascimento">
+                        <h3>Data de nascimento</h3>
+                        <div class="select">
+                            <select name="nascimento-dia" id="" required>
+                                <option value="1">10</option>
+                                <option value="2">10</option>
+                                <option value="3">10</option>
+                            </select>
+                            <select name="nascimento-mes" id="" required>
+                                <option value="1">jun</option>
+                            </select>
+                            <select name="nascimento-ano" id="" required>
+                                <option value="1">2000</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="sexo" id="sexo">
+                            <div class="form">
+                                <input type="radio" name="mf" id="f" required>
+                                <label for="f">Feminino</label>
+                            </div>
+                            <div class="form">
+                                <input type="radio" name="mf" id="m" required>
+                                <label for="m">Masculino</label>
+                            </div>
+                    </div>
+                    
+                    <div class="submit" id="submit">
+                        <input type="submit" value="Cadastrar!">
+                    </div>
+
+                </form>
+            </div>
+        </div>   
+    </main>
+
+
+    <footer>
+        <div class="center">
+            <div class="lang">
+                <a class="linguagem" href="#" target="_blank">Português (Brasil)</a>
+                <a class="linguagem" href="#" target="_blank">English (US)</a>
+                <a class="linguagem" href="#" target="_blank">Español</a>
+                <a class="linguagem" href="#" target="_blank">Français (France)</a>
+                <a class="linguagem" href="#" target="_blank">Italiano</a>
+                <a class="linguagem" href="#" target="_blank">Deutsch</a>
+            </div>
+        </div>     
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .form-login {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .form-element {
+        display: block;
+    }
+
+    .header input[type=email], input[type=password] {
+        margin: 10px 0px;
+        width: 100%;
+        max-width: 200px;
+    }
+
+
+    div.pessoas img {
+        display: none;
+    }
+
+    .pessoas {
+        width: 0%;
+    }
+
+    .abrir-conta {
+        width: 100%;
+    }
+
+    .criar-conta {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .abrir-conta input[type=password] {
+        max-width: 100%;
+    }
+
+    div.sexo label {
+        font-size: 16px;
+    }
+
+
+    .nascimento .select {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .nascimento .select select {
+        margin: auto;
+        width: 70px;
+        text-align: center;
+
+    }
+
+    footer div.lang {
+        display: inline-block;
+        text-align: center;
+    }
+
+}
