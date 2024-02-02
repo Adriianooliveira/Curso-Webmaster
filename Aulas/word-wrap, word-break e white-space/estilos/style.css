@@ -24,7 +24,7 @@ div.box {
 
 
     word-wrap: normal;       -->     word-break: keep-all;
-    word-break: break-all;   -->     word-wrap: break-word;
+    word-wrap: break-word;   -->     word-break: break-all
 
     */
 
