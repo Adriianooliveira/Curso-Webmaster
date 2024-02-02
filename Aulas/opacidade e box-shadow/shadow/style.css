@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+div.box {
+    text-align: center;
+}
+
+div.box img {
+    width: 50%;
+}
+
+div.box img:hover {
+    -webkit-animation-name: acimacao;
+    animation-name: animacao;
+
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes animacao {
+    50% {
+        box-shadow: 8px 8px 12px 1px  black;
+    }
+
+    100% {
+        box-shadow: 16px 16px 20px 1px  black;
+        
+    }
+}
