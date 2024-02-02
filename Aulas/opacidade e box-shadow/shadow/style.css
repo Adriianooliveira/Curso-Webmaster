@@ -20,12 +20,15 @@ div.box img {
 }
 
 div.box img:hover {
+    -moz-animation-name: animacao;
     -webkit-animation-name: acimacao;
     animation-name: animacao;
 
+    -moz-animation-duration: 2s;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
 
+    -moz-animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 
