@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body {
+    height: 100%;
+}
+
+div.box {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: relative;
+
+    /* -webkit-animation-name: animacao_1;
+    animation-name: animacao_1;
+
+    -webkit-animation-duration: 2s;
+    animation-duration: 4s;
+
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+
+}
+
+
+div.box:hover {
+    animation: animacao_1 2s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animacao_1 {
+    /* from {
+        background-color: orange;
+    }
+
+    to {
+        background-color: blue;
+    } */
+
+
+    0% {
+        left: 0;
+        top: 0;
+        background-color: blue;
+    }
+
+    50% {
+        background-color: orange;
+        left: 100px;
+        top: 10px;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+        background-color: yellow;
+        border: 7px double blue;
+    }
+}
