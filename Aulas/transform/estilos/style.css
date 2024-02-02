@@ -16,17 +16,47 @@ div.transform {
     width: 40%;
     height: 300px;
     max-width: 400px;
-    border: 1px solid black;
+    border: 5px solid black;
     border-radius: 10px;
     position: relative;
     top: 50%;
     left: 50%;
     /* transform: translateX(-50%) translateY(-50%); */
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    transition: 2s;
+
+    /* transition-duration: 2s; */
+
+    -moz-animation-name: animacao;
+    -webkit-animation-name: animacao;
+    animation-name: animacao;
+
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     
 }
 
-div.transform:hover {
-    transform:translate(-50%, -50%) rotate(360deg);
+
+
+/* div.transform:hover {
+    transform:translate(-50%, -50%) rotate(360deg) scaleX(2.5) scaleY(1);
+    transform: translate(-50%, -50%) rotatex(180deg) rotateY(180deg);
+} */
+
+@keyframes animacao {
+    0% {
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%) rotateX(0deg);
+    }
+
+    50% {
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%) rotateX(180deg);
+    }
+
+    100% {
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%) rotateX(0deg);
+    }
 }
