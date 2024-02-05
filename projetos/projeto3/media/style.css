@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+
+    header {
+        width: 100%;
+        height: auto;
+        min-height: 90vh;
+        padding: 40px 2%;
+        background-image: url(../imagens/capa.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    header nav.desktop {
+        display: none;
+        
+    }
+
+    header nav.mobile {
+        display: block;
+    }
+
+    .chamada-1 {
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        /* max-width: 600px; */
+        margin: 100px 0;
+        float: none;
+    }
+    
+    header div.chamada-1 h2 {
+        font-weight: 900;
+        color: white;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    
+    header div.chamada-1 p {
+        color: white;
+    }
+
+
+
+
+    section.sessao-1 {
+        height: auto;
+        padding: 40px 3%;
+    }
+
+    .texto-sessao-1 {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        float: none;
+        margin-top: 0;
+        position: static;
+        padding-left: 0;
+    }
+
+    .texto-sessao-1 ul {
+        display: inline-block;
+        margin-top: 20px;
+
+    }
+
+    .texto-sessao-1 ul li {
+        float: none;
+        text-align: left;
+    }
+
+    .button-texto {
+        display: inline-block;
+    }
+
+    .device-sessao-1 {
+        display: none;
+    }
+jj
