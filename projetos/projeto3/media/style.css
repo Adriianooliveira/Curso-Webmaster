@@ -1,4 +1,37 @@
 
+@media screen and (max-width: 580px) {
+    section.sessao-3 .part-1 {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .part-2 {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    section.sessao-2 img {
+        top: 24px;
+        margin-top: 20px;
+    }
+
+
+    footer {
+        text-align: center;
+        line-height: 27px;
+    }
+    
+    footer p:nth-of-type(1) {
+        float: none;
+    }
+    
+    footer p:nth-of-type(2) {
+        float: none;
+    }
+}
+
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -44,7 +77,6 @@
 
 
 
-
     section.sessao-1 {
         height: auto;
         padding: 40px 3%;
@@ -81,6 +113,44 @@
 
     section.sessao-2 h2 {
         padding-top: 40px;
+    }
+
+    section.sessao-4 .container {
+        float: none;
+        text-align: center;
+    }
+
+    .form p {
+        display: inline-block;
+    }
+
+    .map-wraper {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 4%;
+    }
+
+    .map-wraper-3 {
+        display: inline-block;
+        background-color: green;
+        width: 80%;
+        max-width: none;
+        padding-top: 100%;
+        position: relative;
+    }
+    
+    .map-wraper-2 {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding-top: 0;
+        height: 100%;
+    }
+
+    
+
+    .form {
+        width: 100%;
     }
 }
 
