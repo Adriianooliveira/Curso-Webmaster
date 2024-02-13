@@ -27,9 +27,16 @@
 
 
 
+    section.perfil-container .perfil-wraper {
+        padding-top: 0;
+    }
+
     section.perfil-container .perfil-wraper-2 {
         display: inline-block;
         text-align: center;
+        height: auto;
+        position: static;
+        
     }
 
     section.perfil-container .img-perfil {
@@ -50,7 +57,23 @@
 
     header nav.menu-mobile {
         display: block;
+        width: 28px;
+        height: 28px;
+        background-image: url(../imagens/menu-aberto.png);
+        background-size: 100% 100%;
+        cursor: pointer;
         float: right;
+    }
+
+    header nav.menu-mobile ul {
+        z-index: 999;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        line-height: 2em;
+        text-align: center;
     }
 
     header nav.menu-desktop {
