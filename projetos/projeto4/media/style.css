@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+
+    section.servicos > .container{
+        flex-direction: column;
+    }
+
+    section.servicos > .container .box-servico:nth-of-type(1) {
+        width: 90%;
+        max-width: 350px;
+        padding: 30px 2% ;
+    }
+    
+    
+    section.servicos > .container .box-servico:nth-of-type(2) {
+        width: 94%;
+        max-width: 400px;
+        padding: 50px 2% ;
+        background-color: #688393;
+    }
+    
+    section.servicos > .container .box-servico:nth-of-type(3) {
+        width: 90%;
+        max-width: 350px;
+        padding: 30px 2%;
+    }
+
+
+
+
+    section.perfil-container .perfil-wraper-2 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.perfil-container .img-perfil {
+        width: 50%;
+        padding-top: 70%;
+        display: inline-block;
+        height: auto;
+    }
+    
+    section.perfil-container .texto-perfil {
+        width: 100%;
+        display: inline-block;
+        text-align: justify;
+        padding: 0 30px;
+    }
+
+
+
+    header nav.menu-mobile {
+        display: block;
+        float: right;
+    }
+
+    header nav.menu-desktop {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 580px) {
+    section.perfil-container .img-perfil {
+        width: 80%;
+        padding-top: 110%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div.logo img {
+        width: 200px;
+    }
+}
