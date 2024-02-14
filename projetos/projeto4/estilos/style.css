@@ -146,7 +146,7 @@ section.perfil-container {
 
 
 section.perfil-container .container {
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 section.perfil-container .perfil-wraper {
@@ -185,6 +185,7 @@ section.perfil-container .texto-perfil p {
     color: #4b4b4b;
     font-size: 14px;
     margin-top: 8px;
+    line-height: 1.5em;
 }
 /*  */
 
