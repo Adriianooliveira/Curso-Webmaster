@@ -24,7 +24,7 @@ html, body {
 
 header {
     padding: 20px 2% 35px 2%;
-    height: 130px;
+    height: 100px;
 }
 
 
@@ -59,9 +59,8 @@ header nav.desktop ul a {
 
 section.banner {
     width: 100%;
-    height: calc(100vw - 130px);
-    min-height: 600px;
-    max-height: 600px;
+    height: calc(100vw - 100px);
+    height: 650px;
     background-color: black;
     background-image: url(../imagens/bg.jpg);
     background-repeat: no-repeat;
@@ -75,12 +74,16 @@ section.banner {
     margin-top: 30px;
 }
 
+section.banner .container {
+    max-width: 1400px;
+}
+
 .text-banner-single {
     width: 314px;
-    height: 50px;
+    height: 70px;
     margin-top: 20px;
     color: white;
-    padding: 5px 20px;
+    padding: 10px 35px;
     font-size: 27px;
     background-image: url(../imagens/box-text.png);
     background-repeat: no-repeat;
