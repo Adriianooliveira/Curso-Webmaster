@@ -22,6 +22,9 @@ html, body {
     margin: 0 auto;
 }
 
+
+/* header */
+
 header {
     padding: 20px 2% 35px 2%;
     height: 100px;
@@ -88,9 +91,12 @@ header nav.desktop ul a {
     font-size: 23px;
     padding: 0 20px;
 }
+/* fim header */
 
 
 
+
+/* section banner */
 
 section.banner {
     width: 100%;
@@ -147,15 +153,20 @@ section.banner .container {
     left: -30px;
     font-size: 22px;
 }
+/* fim section banner */
 
 
+
+
+
+/* section veiculo destaque */
 
 section.veiculo-destaque {
     padding: 90px 2%;
 }
 
 .line-titulo {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -165,12 +176,13 @@ section.veiculo-destaque {
     position: absolute;
     top: 20px;
     left: 0;
-    width: 800px;
+    width: 100%;
+    max-width: 1000px;
     height: 2px;
     background-color: black;
 }
 
-section.veiculo-destaque h2 {
+section.veiculo-destaque .line-titulo > h2 {
     position: relative;
     display: inline-block;
     padding: 0px 15px 0 10px;
@@ -180,3 +192,56 @@ section.veiculo-destaque h2 {
     text-transform: uppercase;
 }
 
+
+section.veiculo-destaque {
+    padding: 90px 2%;
+}
+
+section.veiculo-destaque .container {
+    max-width: 1000px;
+    padding: 40px 0;
+}
+
+section.veiculo-destaque .vitrine-destaque {
+    float: left;
+    width: 33.3%;
+}
+
+.vitrine-destaque .carro-img {
+    border: 8px solid white;
+    width: 100%;
+    padding-top: 100%;
+    background-size: 100% 100%;
+}
+
+.vitrine-destaque h2 {
+    padding-left: 8px;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.vitrine-destaque p {
+    padding-left: 8px ;
+    color: #353535;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 8px;
+}
+
+
+.vitrine-destaque a {
+    display: block;
+    margin-left: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #eb2d2d;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 3px solid #b21e1e;
+}
+/* dim section veiculo destaque */

@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 580px) {
 
     .text-banner {
@@ -12,7 +10,39 @@
 
     }
 
+
+
+    section.veiculo-destaque .container {
+        max-width: 1000px;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    section.veiculo-destaque .line-titulo > h2 {
+        font-size: 23px;
+    }
+
+
+    section.veiculo-destaque .vitrine-destaque {
+        float: none;
+        display: inline-block;
+        width: 80%;
+    }
+
+    .vitrine-destaque a {
+        display: inline-block;
+    }
+
 }
+
+
+@media screen and (max-width: 480px) {
+    section.veiculo-destaque .vitrine-destaque {
+        width: 100%;
+    }
+}
+
+
 
 @media screen and (max-width: 768px) {
     nav.desktop {
