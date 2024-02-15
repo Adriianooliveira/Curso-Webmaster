@@ -38,6 +38,41 @@ header nav.desktop {
     top: 30px;
 }
 
+nav.mobile {
+    margin-top: 40px;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    background-image: url(../imagens/icon_menu.png);
+    display: none;
+}
+
+nav.mobile ul {
+    z-index: 100;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 110px;
+    font-style: italic;
+    border-bottom: 4px solid red;
+    list-style-type: none;
+    background-color: white;
+}
+
+nav.mobile ul li {
+    margin-top: 25px; 
+    border-bottom: 1px solid black;
+}
+
+
+nav.mobile ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+}
+
 header nav.desktop ul {
     list-style-type: none;
 }
@@ -83,7 +118,7 @@ section.banner .container {
     height: 70px;
     margin-top: 20px;
     color: white;
-    padding: 10px 35px;
+    padding: 12px 35px;
     font-size: 27px;
     background-image: url(../imagens/box-text.png);
     background-repeat: no-repeat;
@@ -105,10 +140,43 @@ section.banner .container {
 
 .text-banner .text-banner-single:nth-of-type(4) {
     width: 320px;
-    height: 50px;
+    height: 70px;
     color: black;
     background-image: url(../imagens/box-white-text.png);
     position: relative;
     left: -30px;
     font-size: 22px;
 }
+
+
+
+section.veiculo-destaque {
+    padding: 90px 2%;
+}
+
+.line-titulo {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.ln1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 800px;
+    height: 2px;
+    background-color: black;
+}
+
+section.veiculo-destaque h2 {
+    position: relative;
+    display: inline-block;
+    padding: 0px 15px 0 10px;
+    font-size: 30px;
+    background-color: white;
+    font-style: italic;
+    text-transform: uppercase;
+}
+

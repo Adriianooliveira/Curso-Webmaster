@@ -3,7 +3,7 @@
 @media screen and (max-width: 580px) {
 
     .text-banner {
-        padding: 70px;
+        padding: 40px;
         margin-top: 30px;
     }
 
@@ -19,6 +19,14 @@
         display: none;
     }
 
+    nav.mobile {
+        display: block;
+    }
+
+    nav.mobile ul {
+        display: none;
+    }
+
 
     section.banner {
         width: 100%;
@@ -26,5 +34,9 @@
         background-size: cover;
         background-position: 100px center;
     
+    }
+
+    .text-banner-single {
+        padding: 20px 35px;
     }
 }
