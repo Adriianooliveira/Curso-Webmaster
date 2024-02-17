@@ -166,7 +166,7 @@ section.veiculo-destaque {
 }
 
 .line-titulo {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -177,12 +177,12 @@ section.veiculo-destaque {
     top: 20px;
     left: 0;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     height: 2px;
     background-color: black;
 }
 
-section.veiculo-destaque .line-titulo > h2 {
+.line-titulo > h2 {
     position: relative;
     display: inline-block;
     padding: 0px 15px 0 10px;
@@ -198,7 +198,7 @@ section.veiculo-destaque {
 }
 
 section.veiculo-destaque .container {
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 40px 0;
 }
 
@@ -248,12 +248,12 @@ a.btn1 {
     margin-top: 10px;
 
 }
-/* dim section veiculo destaque */
+/* fim section veiculo destaque */
 
 
 
 section.servicos-descricao {
-
+    display: flex;
 }
 
 .half1 {
@@ -293,11 +293,6 @@ section.servicos-descricao {
     margin-left: 40px;
     color: white;
     text-decoration: none;
-}
-
-
-.servicos-descricao {
-    display: flex;
 }
 
 .half2 {
@@ -342,4 +337,103 @@ section.servicos-descricao {
     float: right;
     color: #252525;
     font-size: 24px;
+}
+
+
+
+
+
+section.contato {
+    padding: 80px 2%;
+}
+
+
+
+.contato .line-titulo {
+    width: 100%;
+    max-width: 1200px;
+}
+
+section.contato form {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+section.contato .input-wraper {
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+section.contato input[type=text], input[type=email], input[type=tel] {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+
+section.contato textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+}
+
+section.contato input[type=submit] {
+    display: block;
+    margin: auto;
+    border: none;
+    border-bottom: 3px solid #b21e1e;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    width: 150px;
+    height: 45px;
+    background-color: #eb2d2d;
+    line-height: 40px;
+}
+
+
+
+footer {
+    padding: 40px 2%;
+    background-color: #252525;
+}
+
+footer nav {
+    float: left;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    float: left;
+    padding: 0px 35px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-style: italic;
+}
+
+footer p {
+    float: right;
+    color: white;
+    font-size: 19px;
+    font-style: italic;
 }

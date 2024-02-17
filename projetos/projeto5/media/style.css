@@ -10,6 +10,17 @@
 
     }
 
+    .text-banner .text-banner-single:nth-of-type(1) {
+        width: 230px;
+        position: relative;
+        left: 0;
+    }
+
+    .text-banner .text-banner-single:nth-of-type(4) {
+        width: 250px;
+        position: relative;
+    }
+
 
 
     section.veiculo-destaque .container {
@@ -67,7 +78,7 @@
     }
 
     .text-banner-single {
-        padding: 20px 35px;
+        padding: 10px 35px;
     }
 
     .half1 {
@@ -83,6 +94,21 @@
 
     section.servicos-descricao {
         flex-direction: column;
+    }
+
+
+    .w50 {
+        width: 100%;
+    }
+
+
+    footer nav {
+        display: none;
+    }
+
+    footer p {
+        float: none;
+        text-align: center;
     }
 }
 
