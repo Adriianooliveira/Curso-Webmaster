@@ -26,6 +26,7 @@ html, body {
 /* header */
 
 header {
+    width: 100%;
     padding: 20px 2% 35px 2%;
     height: 100px;
 }
@@ -92,8 +93,6 @@ header nav.desktop ul a {
     padding: 0 20px;
 }
 /* fim header */
-
-
 
 
 /* section banner */
@@ -167,7 +166,7 @@ section.veiculo-destaque {
 
 .line-titulo {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
     position: relative;
     text-align: center;
 }
@@ -406,6 +405,9 @@ section.contato input[type=submit] {
 
 
 
+
+/* inicio footer */
+
 footer {
     padding: 40px 2%;
     background-color: #252525;
@@ -436,4 +438,10 @@ footer p {
     color: white;
     font-size: 19px;
     font-style: italic;
+}
+/* fim footer */
+
+
+section.venda {
+    min-height: 90%;
 }
