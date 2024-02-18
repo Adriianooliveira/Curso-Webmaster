@@ -199,7 +199,7 @@ section.veiculo-destaque .container {
     padding: 40px 0;
 }
 
-section.veiculo-destaque .vitrine-destaque {
+.vitrine-destaque {
     float: left;
     width: 33.3%;
 }
@@ -455,7 +455,8 @@ section.venda {
 }
 
 .search1 {
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
 }
 
 
@@ -571,4 +572,12 @@ div.circle {
     display: inline-block;
     vertical-align: top;
     font-weight: 600;
+}
+
+.vitrine-venda {
+    float: left;
+    width: 70%;
+}
+
+.vitrine-venda .vitrine-destaque {
 }
