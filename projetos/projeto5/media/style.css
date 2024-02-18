@@ -44,6 +44,17 @@
         display: inline-block;
     }
 
+    .vitrine-venda {
+        text-align: center;
+    }
+
+    .vitrine-venda .vitrine-destaque {
+        display: inline-block;
+        float: none;
+        width: 80%;
+        
+    }
+
 }
 
 
@@ -109,6 +120,13 @@
     footer p {
         float: none;
         text-align: center;
+    }
+
+    
+
+    .vitrine-venda {
+        float: left;
+        width: 100%;
     }
 }
 

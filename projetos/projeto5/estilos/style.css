@@ -456,7 +456,7 @@ section.venda {
 
 .search1 {
     width: 100%;
-    max-width: 400px;
+    padding-right: 30px;
 }
 
 
@@ -469,7 +469,7 @@ section.venda {
 }
 
 .search1 .barra-preco {
-    width: 100%;
+    width: 100%;    
     height: 20px;
     background-color: white;
     border: 1px solid #ccc;
@@ -580,4 +580,5 @@ div.circle {
 }
 
 .vitrine-venda .vitrine-destaque {
+    margin-top: 20px;
 }
