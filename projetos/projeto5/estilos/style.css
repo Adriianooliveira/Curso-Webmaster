@@ -442,7 +442,7 @@ footer p {
 
 section.venda {
     min-height: 90%;
-    padding: 90px 0;
+    padding: 90px 2%;
 }
 
 .sidebar {
@@ -482,10 +482,10 @@ section.venda {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #777777cf;
     width: 30%;
     height: 20px;
     border-radius: 20px;
+    background-image: linear-gradient(to bottom, white, #908e8e);
 }
 
 .pointer-barra {
@@ -495,7 +495,7 @@ section.venda {
     width: 30px;
     height: 30px;
     border-radius: 10px;
-    background-color: #908e8e;
+    background-image: linear-gradient(to bottom, white, #908e8e);
     border: 1px solid black;
     cursor: pointer;
 }
@@ -545,6 +545,23 @@ section.venda {
     border-radius: 5px;
     display: inline-block;
     cursor: pointer;
+    position: relative;
+}
+
+.form-venda-wraper input[type=checkbox]:checked + /* simbolo de mais significa as tags que vem depois e não o filho*/  label div.circle {
+    display: block;
+}
+
+div.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: none;
 }
 
 
