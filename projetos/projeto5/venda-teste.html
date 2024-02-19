@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="descricao" content="descrição para o site">
+    <meta name="keywords" content="palavras-chaves, separadas, por, virgulas">
+    <meta name="author" content="Adriano De Oliveira Silva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="media/style.css">
+</head>
+<body>
+
+    <header style="border-bottom: 3px solid red;">
+
+        <div class="container">
+            <div class="logo">
+                <img src="imagens/logo.jpg" alt="">
+            </div><!--logo-->
+            <nav class="desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="venda.html" style="color: red;">Venda</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav><!--nav-desktop-->
+            <nav class="mobile">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="venda.html" style="color: red;">Venda</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav><!--nav-mobile-->
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <section class="venda-single">
+        <div class="container">
+            <div class="info-veiculo">
+                <div class="foto-destaque"></div>
+                <div class="nav-galeria">
+                    <div class="nav-galeria-wraper">
+                        <div class="mini-img" style="background-image: url(imagens/carro1.jpg);"></div>
+                        <div class="mini-img" style="background-image: url(imagens/carro1.jpg);"></div>
+                        <div class="mini-img" style="background-image: url(imagens/carro1.jpg);"></div>
+                        <div class="mini-img" style="background-image: url(imagens/carro1.jpg);"></div>
+                        <div class="mini-img" style="background-image: url(imagens/carro1.jpg);"></div>
+                        <div class="mini-img" style="background-image: url(imagens/carro1.jpg);"></div>
+                    </div><!--nav-galeria-wraper-->
+                </div><!--nav-galeria-->
+            </div><!--info-veiculo-->
+            <div class="descricao-veiculo">
+                <h2>R$20.000,00</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum officia quam ea facere explicabo non. Nemo eligendi facilis id, nihil laborios.</p>
+                <a href="#" class="btn1">Entre em contato</a>
+            </div><!--descricao-veiculo-->
+        </div>
+        <div class="clear"></div>
+    </section><!--venda-single-->
+
+    <section class="contato">
+        <div class="line-titulo">
+            <div class="ln1"></div>
+            <h2>Contato</h2>
+        </div><!--line-titulo-->
+
+        <form action="cadastro.php">
+            <div class="input-wraper w100">
+                <input type="text" name="nome" id="inome" placeholder="Nome" required>
+            </div>
+
+            <div class="input-wraper w50">
+                <input type="email" name="email" id="iemail" placeholder="E-mail" required>
+            </div>
+
+            <div class="input-wraper w50">
+                <input type="tel" name="tel" id="itel" placeholder="Telefone" required>
+            </div>
+
+            <div class="input-wraper w100">
+                <textarea name="" id="" style="resize: none;" placeholder="Mensagem" required></textarea>
+            </div>
+
+            <div class="input-wraper w100">
+                <input type="submit" value="Enviar">
+            </div>
+            <div class="clear"></div>
+        </form>
+    </section><!--contato-->
+
+
+    <section class="veiculo-destaque">
+        <div class="container">
+            <div class="line-titulo">
+                <div class="ln1"></div>
+                <h2>veiculos em destaque</h2>
+            </div><!--line-titulo-->
+            <div class="vitrine-destaque">
+                <div class="carro-img" style="background-image: url(imagens/carro1.jpg);">
+                </div><!--carro-img-->
+                <div class="info-carro">
+                    <h2>Lorem ipsum Lorem</h2>
+                    <p>Lorem ipsum Lorem ipsun Lorem ipsum</p>
+                    <a href="#" class="btn1">Mais detalhes</a>
+                </div>
+            </div><!--vitrine-destaque-->
+
+            <div class="vitrine-destaque">
+                <div class="carro-img" style="background-image: url(imagens/carro1.jpg);">
+                </div><!--carro-img-->
+                <div class="info-carro">
+                    <h2>Lorem ipsum Lorem</h2>
+                    <p>Lorem ipsum Lorem ipsun Lorem ipsum</p>
+                    <a href="#" class="btn1">Mais detalhes</a>
+                </div>
+            </div><!--vitrine-destaque-->
+
+            <div class="vitrine-destaque">
+                <div class="carro-img" style="background-image: url(imagens/carro1.jpg);">
+                </div><!--carro-img-->
+                <div class="info-carro">
+                    <h2>Lorem ipsum Lorem</h2>
+                    <p>Lorem ipsum Lorem ipsun Lorem ipsum</p>
+                    <a href="#" class="btn1">Mais detalhes</a>
+                </div>
+            </div><!--vitrine-destaque-->
+            <div class="clear"></div>
+        </div><!--container-->
+    </section><!--veiculo-destaque-->
+
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="venda.html" style="color: red;">Venda</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <p>Todos os direitos reservados</p>
+            <div class="clear"></div>
+        </div><!--container-->
+    </footer>
+    
+</body>
+</html>
