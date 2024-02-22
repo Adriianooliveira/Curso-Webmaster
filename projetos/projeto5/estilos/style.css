@@ -164,7 +164,7 @@ section.banner .container {
 /* section veiculo destaque */
 
 section.veiculo-destaque {
-    padding: 90px 2%;
+    padding: 50px 2% 90px 2%;
 }
 
 .line-titulo {
@@ -192,11 +192,6 @@ section.veiculo-destaque {
     background-color: white;
     font-style: italic;
     text-transform: uppercase;
-}
-
-
-section.veiculo-destaque {
-    padding: 90px 2%;
 }
 
 section.veiculo-destaque .container {
@@ -355,7 +350,7 @@ section.servicos-descricao {
 /* section contato */
 
 section.contato {
-    padding: 80px 2%;
+    padding: 80px 2% 0px 2%;
 }
 
 
@@ -367,7 +362,7 @@ section.contato {
 
 section.contato form {
     max-width: 600px;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 section.contato .input-wraper {
@@ -379,9 +374,10 @@ section.contato .input-wraper {
 section.contato input[type=text], input[type=email], input[type=tel] {
     width: 100%;
     border: 1px solid #ccc;
-    height: 40px;
+    height: 55px;
     line-height: 40px;
     padding-left: 15px;
+    font-size: 16px;
 }
 
 .w100 {
@@ -398,6 +394,7 @@ section.contato textarea {
     border: 1px solid #ccc;
     height: 120px;
     padding: 8px;
+    font-size: 16px;
 }
 
 section.contato input[type=submit] {
@@ -611,37 +608,47 @@ div.circle {
 
 
 section.venda-single {
-    padding: 0 4%;
+    padding: 80px 2% 20px 2%;
 }
 
 section.venda-single .container {
-    padding: 40px 0;
+    padding: 40px 0 0 0;
+    text-align: center;
     max-width: 1000px;
 }
 
 .info-veiculo {
-    float: left;
+    display: inline-block;
+    float: none;
     width: 60%;
 }
 
 .foto-destaque {
-    width: 95%;
+    width: 100%;
     padding-top: 75%;
     background-image: url(../imagens/carro1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .descricao-veiculo {
-    float: left;
-    width: 40%;
-    padding: 20px;
+    vertical-align: top;
+    float: none;
+    display: inline-block;
+    width: auto;
+    padding: 40px 20px 40px 20px;
+}
+
+.descricao-veiculo h2 {
+    text-align: left;
 }
 
 .descricao-veiculo p{
     width: 100%;
-    max-width: 350px;
+    font-size: 17px;
+    max-width: 200px;
     margin-top: 20px;
+    text-align: left;
 
 }
 
@@ -649,11 +656,61 @@ section.venda-single .container {
     margin-top: 20px;
 }
 
+.nav-galeria-parent {
+    width: 100;
+    padding: 36px;
+    position: relative;
+}
+
+.arrow-left-nav {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background-image: url(../imagens/arrow-left.png);
+    background-size: 100% 100%;
+    top: 50%;
+    left: 22px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+}
+
+.arrow-right-nav {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background-image: url(../imagens/arrow-right.png);
+    background-size: 100% 100%;
+    top: 50%;
+    right: -10px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+}
+
+.info-bread {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.info-bread a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-bread span {
+    padding: 0 30px;
+}
+
+.info-bread a:last-child {
+    color: red;
+}
+
 .nav-galeria {
-    width: 100%;
-    margin-top: 15px;
     overflow: hidden;
-    padding: 15px;
+    width: 100%;
 }
 
 .nav-galeria-wraper {
@@ -661,12 +718,17 @@ section.venda-single .container {
     width: 200%;
 }
 
-.mini-img {
+.mini-img-wraper {
     float: left;
-    border: 4px solid white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: calc(33.3% * (100 / 200) * 0.7 );
     width: calc(33.3% * (100 / 200)) ;
+    padding: 9px; 
+    
 }
 
+.mini-img {
+    width: 100%;
+    padding-top: 70%;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

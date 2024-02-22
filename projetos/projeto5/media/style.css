@@ -136,6 +136,26 @@
         float: left;
         width: 100%;
     }
+
+
+
+
+    .info-veiculo  {
+        width: 100%;
+    }
+
+    .descricao-veiculo h2{
+        text-align: center;
+    }
+
+    .descricao-veiculo p {
+        max-width: none;
+        text-align: center;
+    }
+
+    .descricao-veiculo a.btn1 {
+        display: inline-block;        
+    }
 }
 
 @media screen and (max-width: 1100px) {
