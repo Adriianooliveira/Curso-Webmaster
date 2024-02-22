@@ -48,6 +48,18 @@
         text-align: center;
     }
 
+
+    .img-small {
+        width: 100%;
+        padding-top: 100%;
+    }
+
+    .author-2 {
+        width: 100%;
+        padding-left: 0;
+        padding: 20px 0;
+    }
+
 }
 
 

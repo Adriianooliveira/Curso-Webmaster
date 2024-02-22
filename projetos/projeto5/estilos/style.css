@@ -732,3 +732,52 @@ section.venda-single .container {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+
+
+
+
+section.sobre {
+    min-height: 90%;
+    padding: 60px 2% 30px 2%;
+}
+
+
+section.sobre  .container {
+    max-width: 1000px;
+    margin-top: 30px;
+
+}
+
+section.sobre .img-destaque-sobre {
+    width: 100%;
+    padding-top: 60%;
+    background-color: rgb(175, 174, 174);
+}
+
+section.sobre .descricao-author {
+    margin-top: 20px;
+}
+
+section.sobre .descricao-author p {
+    padding-top: 20px;
+}
+
+.descricao-author-2 {
+    margin-top: 40px;
+}
+
+.img-small {
+    background-color: rgb(186, 185, 185);
+    width: 30%;
+    padding-top: 30%;
+    float: left;
+}
+
+.author-2 {
+    float: left;
+    width: 70%;
+    padding-left: 10px;
+}
+
