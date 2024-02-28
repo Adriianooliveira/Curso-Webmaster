@@ -61,4 +61,5 @@ window.onload = function() {
     var meuanimal = new animal()
     console.log(meuanimal.nome)
     */
+
 }
