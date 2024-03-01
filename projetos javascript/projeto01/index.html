@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="descrição para o site">
+    <meta name="keywords" content="palavra-chave,separada, por virgula">
+    <meta name="author" content="Adriano de Oliveria Silva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto cronometro javascript</title>
+
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+    <audio src="alarm.mp3" id="sound" style="display: none;"></audio>
+
+    <div class="container">
+        <h2>minutos</h2>
+        <select name="minutos" id="minutos"></select>
+
+
+        <h2>segundos</h2>
+        <select name="segundos" id="segundos"></select>
+        <br><br>
+
+        <button id="comecar">começar</button>
+
+        <div id="display">
+            <h3></h3>
+        </div><!--display-->
+    </div><!--container-->
+
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
