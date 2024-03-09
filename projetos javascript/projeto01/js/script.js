@@ -24,7 +24,7 @@ for(var i = 1; i <= 60; i++) {
 
 comecar.addEventListener('click',function() {
     minutoAtual = minutos.value;
-    segundoAtual = segundos.value
+    segundoAtual = segundos.value;
 
     display.childNodes[1].innerHTML = `${minutoAtual}:${segundoAtual}`; 
 
