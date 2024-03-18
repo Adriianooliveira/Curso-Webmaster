@@ -23,5 +23,34 @@ const items = [
 ]
 
 function inicializarLoja() {
-    var documentsprodutos = window.document.getElementById
+    var containerProdutos = window.document.getElementById('produtos');
+    for(i = 0; i <= 2; i++) {
+        containerProdutos.innerHTML += `
+    
+        <div class="produtos-single">
+            <img src="${items[i].img}">
+        </div>
+        <p>${items[i].nome}</p>
+        <a class="link" key="${items[i].id}" href="#">Adicionar no carrinho</a>
+
+        `;
+    }
 }
+
+inicializarLoja();
+
+
+function atualizarCarrinho() {
+    console.log(items)
+}
+
+var links = window.document.getElementsByClassName('link')
+
+    for(var i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', function(){
+            let key = this.getAttribute('key');
+            items[key].quantidade++;
+            atualizarCarrinho();
+            return false;
+        })
+    }
