@@ -75,7 +75,18 @@ inicializarloja();
 
 
 atualizarCarrinho = () => {
-    console.log(items);
+    const containerCarrinho = document.querySelector('#carrinhos');
+    containerCarrinho.innerHTML = "";
+    items.map((val) => {
+        if(val.quantidade > 0) {
+        containerCarrinho.innerHTML += `
+
+        <p>${val.nome} | quantidade ${val.quantidade}</p>
+        <hr>
+
+        `;
+        }
+    })
 }
 
 
