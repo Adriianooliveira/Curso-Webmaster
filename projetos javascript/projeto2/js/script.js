@@ -31,8 +31,8 @@ const items = [
 } */
 
 inicializarloja = () => {
-    const containerProdutos = document.getElementById('produtos');
-    const containerCarrinhos = document.getElementById('carrinhos');
+    const containerProdutos = document.querySelector('#produtos');
+    const containerCarrinhos = document.querySelector('#carrinhos');
 
     /*for(var i = 0; i <= 2; i++) {
         containerProdutos.innerHTML += `
@@ -63,7 +63,7 @@ inicializarloja = () => {
         <div class"produtos-single">
             <img src="${val.img}">
             <p>${val.nome}</p>
-            <a href="#" id"${val.id}">Adicionar no carrinho</a>
+            <a href="#" id="${val.id}">Adicionar no carrinho</a>
         <div/>
 
         `;
@@ -74,16 +74,18 @@ inicializarloja = () => {
 inicializarloja();
 
 
-atualizarcarrinho = () => {
-
+atualizarCarrinho = () => {
+    console.log("items");
 }
 
 
-let links = document.getElementsByTagName('a');
+var links = document.getElementsByTagName('a');
 
-for(var i = 0; i < links.length; i ++) {
-    links[i].addEventListener('click', () => {
-        let key = this.getAttribute('key');
+for(var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click',function() {
+        let key = this.getAttribute("id")
+        items[key].quantidade++;
+        atualizarCarrinho();
     })
 }
 
