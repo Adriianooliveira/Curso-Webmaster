@@ -60,7 +60,7 @@ inicializarloja = () => {
 
     items.map((val) => {
         containerProdutos.innerHTML += `
-        <div class"produtos-single">
+        <div class="produtos-single">
             <img src="${val.img}">
             <p>${val.nome}</p>
             <a href="#" id="${val.id}">Adicionar no carrinho</a>
@@ -75,7 +75,7 @@ inicializarloja();
 
 
 atualizarCarrinho = () => {
-    console.log("items");
+    console.log(items);
 }
 
 
@@ -86,6 +86,7 @@ for(var i = 0; i < links.length; i++) {
         let key = this.getAttribute("id")
         items[key].quantidade++;
         atualizarCarrinho();
+        return false;
     })
 }
 
